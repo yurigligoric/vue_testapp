@@ -4,6 +4,11 @@
   <div>
     <h2>Hi World Component</h2>
     <p>This is the HiWorld component content.</p>
+    <div>
+    <h1>Home View</h1>
+    <router-link to="/product">Just product</router-link>
+    <router-link to="/about">About</router-link>
+  </div>
   </div>
 </template>
 

@@ -1,7 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Vue.js App"/>
-  <HiWorld />
+  <div id="app">
+    <router-view>    
+    </router-view>
+  </div>
+
 </template>
 
 <script>
@@ -11,7 +13,9 @@ import HiWorld from './components/HiWorld.vue'
 export default {
   name: 'App',
   components: {
+    // eslint-disable-next-line vue/no-unused-components
     HelloWorld, 
+    // eslint-disable-next-line vue/no-unused-components
     HiWorld
   }
 }
